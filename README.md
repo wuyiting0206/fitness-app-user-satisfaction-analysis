@@ -26,13 +26,13 @@ This project uses publicly available datasets from Kaggle:
 
 1. **Google Play Store app metadata dataset**  
    - Includes app name, category, rating, reviews, installs, type, price, and related metadata  
-   - Source: [Insert dataset link]  
-   - Access date: [Insert access date]
+   - Source: https://www.kaggle.com/datasets/lava18/google-play-store-apps
+   - Access date: 2026.4.23
 
 2. **Google Play user reviews dataset**  
    - Includes app name, translated review text, and sentiment information (if available)  
-   - Source: [Insert dataset link]  
-   - Access date: [Insert access date]
+   - Source: https://www.kaggle.com/datasets/lava18/google-play-store-apps
+   - Access date: 2026.4.23
 
 > Note: If the data files are too large to upload to GitHub, the source links and access instructions are provided here instead.
 
