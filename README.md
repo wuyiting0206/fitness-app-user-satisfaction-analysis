@@ -78,7 +78,7 @@ The analysis suggests that higher-rated fitness apps tend to have stronger user 
    pip install -r requirements.txt
 3.Open the notebook file:
 ```text
-notebook.ipynb
+fitness appa analysis.ipyn
 ```
 4.Run the notebook from top to bottom to reproduce the analysis and charts.
 ## Limitations
