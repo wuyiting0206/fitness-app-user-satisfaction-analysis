@@ -19,7 +19,6 @@ This project focuses on the following questions:
 
 1. What app characteristics are associated with higher ratings in fitness apps?
 2. What themes appear most often in positive user reviews?
-3. What complaints appear most often in negative user reviews?
 
 ## Data Sources
 This project uses publicly available datasets from Kaggle:
@@ -34,13 +33,11 @@ This project uses publicly available datasets from Kaggle:
    - Source: https://www.kaggle.com/datasets/lava18/google-play-store-apps
    - Access date: 2026.4.23
 
-> Note: If the data files are too large to upload to GitHub, the source links and access instructions are provided here instead.
-
 ## Methods
 The project uses Python for data cleaning, transformation, analysis, and visualization. The main steps include:
 
 - loading app metadata and review datasets
-- filtering apps in the **Health & Fitness** category
+- filtering apps in the **Health_and_Fitness** category
 - cleaning rating, review count, installs, and pricing fields
 - merging metadata with review information where possible
 - comparing app characteristics associated with higher ratings
@@ -53,21 +50,8 @@ The project uses Python for data cleaning, transformation, analysis, and visuali
 - numpy
 - matplotlib
 - seaborn
-- [Optional: nltk / wordcloud / re / scikit-learn]
+- re
 
-## Repository Structure
-```text
-fitness-app-user-satisfaction-analysis/
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-├── notebooks/
-│   └── fitness_app_analysis.ipynb
-├── images/
-├── requirements.txt
-└── README.md
-```
 ## Key Findings
 The analysis suggests that higher-rated fitness apps tend to have stronger user engagement indicators, such as higher install counts and more review activity. Positive reviews often mention useful workout guidance, progress tracking, and ease of use. Negative reviews frequently focus on bugs, app crashes, intrusive ads, and subscription or payment-related frustration.
 
