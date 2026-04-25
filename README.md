@@ -50,7 +50,6 @@ The project uses Python for data cleaning, transformation, analysis, and visuali
 - numpy
 - matplotlib
 - seaborn
-- re
 
 ## Key Findings
 The analysis suggests that higher-rated fitness apps tend to have stronger user engagement indicators, such as higher install counts and more review activity. Positive reviews often mention useful workout guidance, progress tracking, and ease of use. Negative reviews frequently focus on bugs, app crashes, intrusive ads, and subscription or payment-related frustration.
@@ -59,10 +58,10 @@ The analysis suggests that higher-rated fitness apps tend to have stronger user 
 1. Download or clone this repository.
 2. Install the required Python packages:
    ```bash
-   requirements.txt
+   pip install -r requirements.txt
 3.Open the notebook file:
 ```text
-   Fitness app analysis.ipynb
+  Fitness app analysis.ipynb
 ```
 4.Run the notebook from top to bottom to reproduce the analysis and charts.
 ## Limitations
