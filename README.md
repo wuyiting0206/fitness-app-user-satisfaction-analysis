@@ -59,10 +59,10 @@ The analysis suggests that higher-rated fitness apps tend to have stronger user 
 1. Download or clone this repository.
 2. Install the required Python packages:
    ```bash
-   pip install -r requirements.txt
+   requirements.txt
 3.Open the notebook file:
 ```text
-fitness appa analysis.ipyn
+   Fitness app analysis.ipynb
 ```
 4.Run the notebook from top to bottom to reproduce the analysis and charts.
 ## Limitations
